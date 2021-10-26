@@ -16,4 +16,10 @@
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\azureservice.Common\azureservice.Common.csproj" />
+  </ItemGroup>
 </Project>

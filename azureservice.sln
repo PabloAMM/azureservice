@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azureservice.Common", "azureservice.Common\azureservice.Common.csproj", "{D89A4C7D-0361-42A7-8E08-168A6230DA96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azureservice.Common", "azureservice.Common\azureservice.Common.csproj", "{D89A4C7D-0361-42A7-8E08-168A6230DA96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azureservice.Functions", "azureservice.Functions\azureservice.Functions.csproj", "{58AA6C01-7E09-4D5E-A9EE-46B6EBEA53F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azureservice.Functions", "azureservice.Functions\azureservice.Functions.csproj", "{58AA6C01-7E09-4D5E-A9EE-46B6EBEA53F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
