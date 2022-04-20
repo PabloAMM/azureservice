@@ -15,8 +15,8 @@ namespace azureservice.Common.Models
         public async Task<ServiceResponse> ServicioTRM(TrmRequest request)
         {
             var httpClient = new HttpClient();
-            var user = "cliente";
-            var password = "Cliente2021**";
+            var user = "901009742";
+            var password = "q4TZwgvICfr5B27ENoZC";
 
             var authToken = Encoding.ASCII.GetBytes($"{user}:{password}");
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic",
@@ -24,7 +24,7 @@ namespace azureservice.Common.Models
 
             HttpContent httpContent = new StringContent(JsonConvert.SerializeObject(request), Encoding.UTF8);
 
-            var result = await httpClient.PostAsync("http://159.65.255.33:9092/Exchange/", httpContent);
+            var result = await httpClient.PostAsync("https://aliatic.app/apis/trm/qas/Exchange/", httpContent);
 
 
             var Trm = await result.Content.ReadAsStringAsync();
